@@ -1,0 +1,44 @@
+.resumeApp {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.editorPreviewContainer {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.editorPanel {
+  width: 50%;
+  padding: 20px;
+  background-color: #f8f9fa;
+  overflow-y: auto;
+  border-right: 1px solid #dee2e6;
+}
+
+.previewPanel {
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  overflow-y: auto;
+}
+
+.addSectionButton {
+  width: 100%;
+  padding: 12px;
+  margin-top: 16px;
+  background-color: #ffffff;
+  border: 2px dashed #dee2e6;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.addSectionButton:hover {
+  background-color: #f8f9fa;
+}

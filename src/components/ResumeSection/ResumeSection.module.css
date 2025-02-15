@@ -1,0 +1,130 @@
+.section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.sectionControls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.titleContainer {
+  flex-grow: 1;
+  margin-right: 16px;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: text;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.editIcon {
+  color: #718096;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.titleWrapper:hover .editIcon {
+  opacity: 1;
+}
+
+.titleInput {
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 4px 8px;
+  width: 100%;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  color: #718096;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.iconButton:hover {
+  color: #4a5568;
+}
+
+.iconButton:disabled {
+  color: #cbd5e0;
+  cursor: not-allowed;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sectionEntry {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.textareaField {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 14px;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.addEntryButton {
+  width: 100%;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border: 1px dashed #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background-color 0.2s;
+}
+
+.addEntryButton:hover {
+  background-color: #e9ecef;
+}
